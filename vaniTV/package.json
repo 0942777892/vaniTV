@@ -1,18 +1,26 @@
 {
   "name": "vanitv",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "version": "0.2.0",
+  "description": "Modern IPTV addon for Stremio",
+  "main": "src/index.js",
   "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "stremio",
+    "iptv",
+    "m3u",
+    "addon"
+  ],
+  "author": "Văn",
+  "license": "MIT",
   "dependencies": {
-    "express": "^5.2.1",
     "iptv-playlist-parser": "^0.15.2",
     "stremio-addon-sdk": "^1.6.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
