@@ -14,12 +14,12 @@ module.exports = {
     ],
 
     types: [
-        "tv"
+        "movie"
     ],
 
     catalogs: [
         {
-            type: "tv",
+            type: "movie",
             id: "live-tv",
             name: "Live TV"
         }

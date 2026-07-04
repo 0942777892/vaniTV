@@ -17,6 +17,7 @@
   "author": "Văn",
   "license": "MIT",
   "dependencies": {
+    "express": "^5.2.1",
     "iptv-playlist-parser": "^0.15.2",
     "stremio-addon-sdk": "^1.6.10"
   },

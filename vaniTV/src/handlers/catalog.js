@@ -2,26 +2,21 @@ const { getChannels } = require("../services/playlist");
 
 const { createChannelId } = require("../utils/channelId");
 
-function catalogHandler() {
+async function catalogHandler(args) {
+    console.log("Catalog request:", args);
 
     const channels = getChannels();
 
-    const metas = channels.map((channel) => ({
+    console.log("Returning", channels.length, "channels");
 
+    const metas = channels.map(channel => ({
         id: createChannelId(channel),
-
-        type: "tv",
-
+        type: "movie",
         name: channel.name,
-
-        poster: channel.logo || "",
-
+        poster: channel.logo || "https://placehold.co/300x450/png?text=TV"
     }));
 
-    return Promise.resolve({
-        metas
-    });
-
+    return { metas };
 }
 
 module.exports = catalogHandler;
