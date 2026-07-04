@@ -1,24 +1,22 @@
 const { getChannels } = require("../services/playlist");
 
+const { createChannelId } = require("../utils/channelId");
+
 function catalogHandler() {
 
     const channels = getChannels();
 
-    const metas = channels.map((channel, index) => {
+    const metas = channels.map((channel) => ({
 
-        return {
+        id: createChannelId(channel),
 
-            id: `vanitv:${index}`,
+        type: "tv",
 
-            type: "tv",
+        name: channel.name,
 
-            name: channel.name,
+        poster: channel.logo || "",
 
-            poster: channel.logo || ""
-
-        };
-
-    });
+    }));
 
     return Promise.resolve({
         metas
