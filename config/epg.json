@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Vietnam EPG",
+        "type": "file",
+        "path": "guide.xml",
+        "enabled": false,
+        "priority": 100
+    }
+]

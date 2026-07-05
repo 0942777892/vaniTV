@@ -1,0 +1,23 @@
+[
+    {
+        "name": "UDP FPT",
+        "type": "file",
+        "path": "kenh.m3u",
+        "enabled": true,
+        "priority": 10,
+        "tags": [
+            "udp"
+        ]
+    },
+    {
+        "name": "HTTP Backup",
+        "type": "file",
+        "path": "kenhcoban.m3u",
+        "enabled": true,
+        "priority": 100,
+        "tags": [
+            "backup",
+            "http"
+        ]
+    }
+]

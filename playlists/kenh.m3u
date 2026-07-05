@@ -1,0 +1,251 @@
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/vn.xml"
+
+#IPTV 118CH - Mr Van 0942777892
+
+#EXTINF:-1 tvg-id="VTV1" tvg-name="VTV1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV1.png" group-title="VTV",VTV1
+udp://@225.1.2.249:30120
+#EXTINF:-1 tvg-id="VTV2" tvg-name="VTV2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/main/VTV2.png" group-title="VTV",VTV2
+udp://@225.1.2.13:30120
+#EXTINF:-1 tvg-id="VTV3" tvg-name="VTV3" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV3.png" group-title="VTV",VTV3
+udp://@225.1.2.247:30120
+#EXTINF:-1 tvg-id="VTV4" tvg-name="VTV4" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV4.png" group-title="VTV",VTV4
+udp://@225.1.2.20:30120
+#EXTINF:-1 tvg-id="VTV5" tvg-name="VTV5" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV5.png" group-title="VTV",VTV5
+udp://@225.1.1.131:30120
+#EXTINF:-1 tvg-id="VTV5-TNB" tvg-name="VTV5-TNB" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV5-TNB.png" group-title="VTV",VTV5-TNB
+udp://@225.1.2.236:30120
+#EXTINF:-1 tvg-id="VTV5-TN" tvg-name="VTV5-TN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV5-TN.png" group-title="VTV",VTV5-TN
+udp://@225.1.1.108:30120
+#EXTINF:-1 tvg-id="VTV6" tvg-name="VTV6" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV6.png" group-title="VTV",VTV6
+udp://@225.1.2.154:30120
+#EXTINF:-1 tvg-id="VTV7" tvg-name="VTV7" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV7.png" group-title="VTV",VTV7
+udp://@225.1.2.96:30120
+#EXTINF:-1 tvg-id="VTV8" tvg-name="VTV8" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV8.png" group-title="VTV",VTV8
+udp://@225.1.2.166:30120
+#EXTINF:-1 tvg-id="VTV9" tvg-name="VTV9" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV9.png" group-title="VTV",VTV9
+udp://@225.1.1.128:30120
+#EXTINF:-1 tvg-id="VTV10" tvg-name="VTV10" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV10.png" group-title="VTV",VTV10
+udp://@225.1.2.245:30120
+#EXTINF:-1 tvg-id="QPVN" tvg-name="QPVN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QPVN.png" group-title="Trong Nước",QPVN
+udp://@225.1.2.217:30120
+#EXTINF:-1 tvg-id="ANTV" tvg-name="ANTV" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/ANTV.png" group-title="Trong Nước",ANTV
+udp://@225.1.2.169:30120
+#EXTINF:-1 tvg-id="VIETNAM-TODAY" tvg-name="VIETNAM-TODAY" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/Vietnam-Today.png" group-title="Trong Nước",VIETNAM TODAY
+udp://@225.1.2.190:30120
+#EXTINF:-1 tvg-id="HANOI1" tvg-name="HANOI1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HANOI1.png" group-title="Trong Nước",HA NOI 1
+udp://@225.1.2.186:30120
+#EXTINF:-1 tvg-id="HANOI1" tvg-name="HANOI2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HANOI2.png" group-title="Trong Nước",HA NOI 2
+udp://@225.1.2.186:30120
+#EXTINF:-1 tvg-id="HTV1" tvg-name="HTV1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV1.png" group-title="HTV",HTV1
+udp://@225.1.1.180:30120
+#EXTINF:-1 tvg-id="HTV2" tvg-name="HTV2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV2.png" group-title="HTV",HTV2
+udp://@225.1.1.193:30120
+#EXTINF:-1 tvg-id="HTV3" tvg-name="HTV3" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV3.png" group-title="HTV",HTV3
+udp://@225.1.1.178:30120
+#EXTINF:-1 tvg-id="HTV4 KEYS" tvg-name="HTV4 KEYS" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV4.png" group-title="HTV",HTV4
+udp://@225.1.1.177:30120
+#EXTINF:-1 tvg-id="ANVIEN" tvg-name="ANVIEN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV5.png" group-title="HTV",HTV5
+udp://@225.1.2.189:30120
+#EXTINF:-1 tvg-id="HTV7" tvg-name="HTV7" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV7.png" group-title="HTV",HTV7
+udp://@225.1.1.192:30120
+#EXTINF:-1 tvg-id="HTV9" tvg-name="HTV9" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV9.png" group-title="HTV",HTV9
+udp://@225.1.1.190:30120
+#EXTINF:-1 tvg-id="HTV_THETHAO" tvg-name="HTV_THETHAO" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV-Thethao.png" group-title="HTV",HTV THE THAO
+udp://@225.1.1.165:30120
+#EXTINF:-1 tvg-id="AM NHAC (htvc.vn)" tvg-name="AM NHAC (htvc.vn)" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTVC_AMNHAC.png" group-title="HTVC",HTV AM NHAC
+udp://@225.1.1.185:30120
+#EXTINF:-1 tvg-id="DU LICH & CUOC SONG" tvg-name="DU LICH & CUOC SONG" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DULICHCUOCSONG.png" group-title="HTVC",DU LICH & CUOC SONG
+udp://@225.1.1.166:30120
+#EXTINF:-1 tvg-id="HTVC_GIA DINH" tvg-name="HTVC_GIA DINH" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTVC_GIADINH.png" group-title="HTV",HTV GIA DINH
+udp://@225.1.1.170:30120
+#EXTINF:-1 tvg-id="HTVC_PHIM" tvg-name="HTVC_PHIM" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTVC_PHIM.png" group-title="HTV",HTVC PHIM
+udp://@225.1.1.184:30120
+#EXTINF:-1 tvg-id="HTVC_PHU NU" tvg-name="HTVC_PHU NU" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTVC_PHUNU.png" group-title="HTV",HTV PHU NU
+udp://@225.1.1.171:30120
+#EXTINF:-1 tvg-id="HTVC_THUAN VIET" tvg-name="HTVC_THUAN VIET" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTVC_THUANVIET.png" group-title="HTV",THUAN VIET
+udp://@225.1.1.186:30120
+#EXTINF:-1 tvg-id="C+ (htvc.vn)" tvg-name="C+ (htvc.vn)" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTVC-Plus.png" group-title="HTVC",C+
+udp://@225.1.1.181:30120
+#EXTINF:-1 tvg-id="SCTV6" tvg-name="SCTV6" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/SCTV6.png" group-title="Trong Nước",SCTV6
+udp://@225.1.1.188:30120
+#EXTINF:-1 tvg-id="FPT GTCT" tvg-name="FPT" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT.png" group-title="FPT",FPT
+udp://@225.1.1.2:30120
+#EXTINF:-1 tvg-id="FPT1" tvg-name="FPT1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT1.png" group-title="FPT",FPT1
+udp://@225.1.1.48:30120
+#EXTINF:-1 tvg-id="FPT2" tvg-name="FPT2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT2.png" group-title="FPT",FPT2
+udp://@225.1.4.200:30120
+#EXTINF:-1 tvg-id="FPT3" tvg-name="FPT3" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT3.png" group-title="FPT",FPT3
+udp://@225.1.1.92:30120
+#EXTINF:-1 tvg-id="FPT4" tvg-name="FPT4" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT4.png" group-title="FPT",FPT4
+udp://@225.1.1.84:30120
+#EXTINF:-1 tvg-id="CAO BANG" tvg-name="CAO BANG" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CAO_BANG.png" group-title="Địa Phương",CAO BANG
+udp://@225.1.1.102:30120
+#EXTINF:-1 tvg-id="LAO CAI" tvg-name="LAO CAI" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/LAO_CAI.png" group-title="Địa Phương",LAO CAI
+udp://@225.1.1.119:30120
+#EXTINF:-1 tvg-id="LAI CHAU" tvg-name="LAI CHAU" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/LAI_CHAU.png" group-title="Địa Phương",LAI CHAU
+udp://@225.1.2.36:30120
+#EXTINF:-1 tvg-id="SON LA" tvg-name="SON LA" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/SON_LA.png" group-title="Địa Phương",SON LA
+udp://@225.1.1.98:30120
+#EXTINF:-1 tvg-id="DIEN BIEN" tvg-name="DIEN BIEN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DIEN_BIEN.png" group-title="Địa Phương",DIEN BIEN
+udp://@225.1.1.74:30120
+#EXTINF:-1 tvg-id="TUYEN QUANG" tvg-name="TUYEN QUANG" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/TUYEN_QUANG.png" group-title="Địa Phương",TUYEN QUANG
+udp://@225.1.2.188:30120
+#EXTINF:-1 tvg-id="PHU THO" tvg-name="PHU THO" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/PHU_THO.png" group-title="Địa Phương",PHU THO
+udp://@225.1.2.165:30120
+#EXTINF:-1 tvg-id="THAI NGUYEN" tvg-name="THAI NGUYEN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/THAI_NGUYEN.png" group-title="Địa Phương",THAI NGUYEN
+udp://@225.1.2.179:30120
+#EXTINF:-1 tvg-id="BAC NINH" tvg-name="BAC NINH" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BAC_NINH.png" group-title="Địa Phương",BAC NINH
+udp://@225.1.1.164:30120
+#EXTINF:-1 tvg-id="LANG SON" tvg-name="LANG SON" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/LANG_SON.png" group-title="Địa Phương",LANG SON
+udp://@225.1.1.160:30120
+#EXTINF:-1 tvg-id="QUANG NINH 1" tvg-name="QUANG NINH 1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NINH 1.png" group-title="Địa Phương",QUANG NINH 1
+udp://@225.1.2.181:30120
+#EXTINF:-1 tvg-id="QUANG NINH 3" tvg-name="QUANG NINH 3" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NINH 3.png" group-title="Địa Phương",QUANG NINH 3
+udp://@225.1.2.180:30120
+#EXTINF:-1 tvg-id="HAI PHONG" tvg-name="HAI PHONG" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HAI_PHONG.png" group-title="Địa Phương",HAI PHONG
+udp://@225.1.1.44:30120
+#EXTINF:-1 tvg-id="HUNG YEN" tvg-name="HUNG YEN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HUNG_YEN.png" group-title="Địa Phương",HUNG YEN
+udp://@225.1.1.118:30120
+#EXTINF:-1 tvg-id="NINH BINH" tvg-name="NINH BINH" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/NINH_BINH.png" group-title="Địa Phương",NINH BINH
+udp://@225.1.2.185:30120
+#EXTINF:-1 tvg-id="THANH HOA" tvg-name="THANH HOA" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/THANH_HOA.png" group-title="Địa Phương",THANH HOA
+udp://@225.1.2.184:30120
+#EXTINF:-1 tvg-id="NGHE AN" tvg-name="NGHE AN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/NGHE_AN.png" group-title="Địa Phương",NGHE AN
+udp://@225.1.2.183:30120
+#EXTINF:-1 tvg-id="HA TINH" tvg-name="HA TINH" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HA_TINH.png" group-title="Địa Phương",HA TINH
+udp://@225.1.1.75:30120
+#EXTINF:-1 tvg-id="QUANG TRI" tvg-name="QUANG TRI" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_TRI.png" group-title="Địa Phương",QUANG TRI
+udp://@225.1.1.117:30120
+#EXTINF:-1 tvg-id="HUE" tvg-name="HUE" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HUE.png" group-title="Địa Phương",HUE
+udp://@225.1.1.161:30120
+#EXTINF:-1 tvg-id="DN1-RTV" tvg-name="DN1-RTV" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DN1_RTV.png" group-title="Địa Phương",DN1-RTV
+udp://@225.1.1.152:30120
+#EXTINF:-1 tvg-id="DN2-RTV" tvg-name="DN2-RTV" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DN2_RTV.png" group-title="Địa Phương",DN2-RTV
+udp://@225.1.1.151:30120
+#EXTINF:-1 tvg-id="DA NANG TV1" tvg-name="DA NANG TV1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DA_NANG1.png" group-title="Địa Phương",DA NANG TV1
+udp://@225.1.1.147:30120
+#EXTINF:-1 tvg-id="DA NANG TV2" tvg-name="DA NANG TV2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DA_NANG2.png" group-title="Địa Phương",DA NANG TV2
+udp://@225.1.1.146:30120
+#EXTINF:-1 tvg-id="DAKLAK" tvg-name="DAKLAK" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DAKLAK.png" group-title="Địa Phương",DAKLAK
+udp://@225.1.1.64:30120
+#EXTINF:-1 tvg-id="QUANGNGAI1" tvg-name="QUANG NGAI 1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NGAI1.png" group-title="Địa Phương",QUANG NGAI 1
+udp://@225.1.2.174:30120
+#EXTINF:-1 tvg-id="QUANGNGAI2" tvg-name="QUANG NGAI 2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NGAI2.png" group-title="Địa Phương",QUANG NGAI 2
+udp://@225.1.1.36:30120
+#EXTINF:-1 tvg-id="QUANGNINH1" tvg-name="QUANG NINH 1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NINH1.png" group-title="Địa Phương",QUANG NINH 1
+udp://@225.1.2.181:30120
+#EXTINF:-1 tvg-id="QUANGNINH3" tvg-name="QUANG NINH 3" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NINH3.png" group-title="Địa Phương",QUANG NINH 3
+udp://@225.1.2.180:30120
+#EXTINF:-1 tvg-id="LAM DONG 1" tvg-name="LAM DONG 1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/LAM_DONG1.png" group-title="Địa Phương",LAM DONG 1
+udp://@225.1.2.177:30120
+#EXTINF:-1 tvg-id="LAM DONG 2" tvg-name="LAM DONG 2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/LAM_DONG2.png" group-title="Địa Phương",LAM DONG 2
+udp://@225.1.1.124:30120
+#EXTINF:-1 tvg-id="KHANH HOA" tvg-name="KHANH HOA" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/KHANH_HOA.png" group-title="Địa Phương",KHANH HOA
+udp://@225.1.1.133:30120
+#EXTINF:-1 tvg-id="KHANH HOA 1" tvg-name="KHANH HOA 1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/KHANH_HOA1.png" group-title="Địa Phương",KHANH HOA 1
+udp://@225.1.2.178:30120
+#EXTINF:-1 tvg-id="GIA LAI" tvg-name="GIA LAI" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/GIA_LAI.png" group-title="Địa Phương",GIA LAI
+udp://@225.1.1.145:30120
+#EXTINF:-1 tvg-id="DONG NAI 1" tvg-name="DONG NAI 1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DONG_NAI1.png" group-title="Địa Phương",DONG NAI 1
+udp://@225.1.1.152:30120
+#EXTINF:-1 tvg-id="DONG NAI 2" tvg-name="DONG NAI 2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DONG_NAI2.png" group-title="Địa Phương",DONG NAI 2
+udp://@225.1.1.151:30120
+#EXTINF:-1 tvg-id="VINH LONG 1" tvg-name="VINH LONG 1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VINH_LONG1.png" group-title="Địa Phương",VINH LONG 1
+udp://@225.1.1.155:30120
+#EXTINF:-1 tvg-id="VINH LONG 2" tvg-name="VINH LONG 2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VINH_LONG2.png" group-title="Địa Phương",VINH LONG 2
+udp://@225.1.1.154:30120
+#EXTINF:-1 tvg-id="VINH LONG 3" tvg-name="VINH LONG 3" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VINH_LONG3.png" group-title="Địa Phương",VINH LONG 3
+udp://@225.1.1.235:30120
+#EXTINF:-1 tvg-id="VINH LONG 4" tvg-name="VINH LONG 4" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VINH_LONG4.png" group-title="Địa Phương",VINH LONG 4
+udp://@225.1.2.25:30120
+#EXTINF:-1 tvg-id="VINH LONG 5" tvg-name="VINH LONG 5" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VINH_LONG5.png" group-title="Địa Phương",VINH LONG 5
+udp://@225.1.2.172:30120
+#EXTINF:-1 tvg-id="CAN THO 1" tvg-name="CAN THO 1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CAN_THO1.png" group-title="Địa Phương",CAN THO 1
+udp://@225.1.1.132:30120
+#EXTINF:-1 tvg-id="CAN THO 2" tvg-name="CAN THO 2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CAN_THO2.png" group-title="Địa Phương",CAN THO 2
+udp://@225.1.1.157:30120
+#EXTINF:-1 tvg-id="CAN THO 3" tvg-name="CAN THO 3" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CAN_THO3.png" group-title="Địa Phương",CAN THO 3
+udp://@225.1.1.159:30120
+#EXTINF:-1 tvg-id="TAY NINH" tvg-name="TAY NINH" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/TAY_NINH.png" group-title="Địa Phương",TAY NINH
+udp://@225.1.1.162:30120
+#EXTINF:-1 tvg-id="DONG THAP" tvg-name="DONG THAP" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DONG_THAP.png" group-title="Địa Phương",DONG THAP
+udp://@225.1.1.163:30120
+#EXTINF:-1 tvg-id="AN GIANG 1" tvg-name="AN GIANG 1" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/AN_GIANG1.png" group-title="Địa Phương",AN GIANG 1
+udp://@225.1.2.182:30120
+#EXTINF:-1 tvg-id="AN GIANG 2" tvg-name="AN GIANG 2" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/AN_GIANG2.png" group-title="Địa Phương",AN GIANG 2
+udp://@225.1.2.173:30120
+#EXTINF:-1 tvg-id="AN GIANG 3" tvg-name="AN GIANG 3" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/AN_GIANG3.png" group-title="Địa Phương",AN GIANG 3
+udp://@225.1.1.174:30120
+#EXTINF:-1 tvg-id="CA MAU" tvg-name="CA MAU" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CA_MAU.png" group-title="Địa Phương",CA MAU
+udp://@225.1.1.104:30120
+#EXTINF:-1 tvg-id="ABC AUSTRALIA" tvg-name="ABC AUSTRALIA" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/ABC_AUSTRALIA.png" group-title="Quốc Tế",ABC AUSTRALIA
+udp://@225.1.2.21:30120
+#EXTINF:-1 tvg-id="AFN" tvg-name="AFN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/AFN.png" group-title="Quốc Tế",AFN
+udp://@225.1.1.198:30120
+#EXTINF:-1 tvg-id="ANIMAL PLANET" tvg-name="ANIMAL PLANET" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/ANIMAL_PLANET.png" group-title="Khám Phá",ANIMAL PLANET
+udp://@225.1.1.231:30120
+#EXTINF:-1 tvg-id="A_cna" tvg-name="A_cna" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/A_cna.png" group-title="Tin Tức",A_cna
+udp://@225.1.4.76:30120
+#EXTINF:-1 tvg-id="ARRIANG" tvg-name="ARRIANG" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/ARRIANG.png" group-title="Quốc Tế",ARRIANG
+udp://@225.1.1.201:30120
+#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/AXN.png" group-title="Giải Trí & Phim",AXN
+udp://@225.1.2.225:30120
+#EXTINF:-1 tvg-id="BABY FIRST" tvg-name="BABY FIRST" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BABY_FIRST.png" group-title="Thiếu Nhi",BABY FIRST
+udp://@225.1.1.136:30120
+#EXTINF:-1 tvg-id="CARTOONITO" tvg-name="CARTOONITO" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CARTOONITO.png" group-title="Thiếu Nhi",CARTOONITO
+udp://@225.1.1.138:30120
+#EXTINF:-1 tvg-id="BBC CBEEBIES" tvg-name="BBC CBEEBIES" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BBC_CBEEBIES.png" group-title="Thiếu Nhi",BBC CBEEBIES
+udp://@225.1.1.134:30120
+#EXTINF:-1 tvg-id="BBC EARTH" tvg-name="BBC EARTH" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BBC_EARTH.png" group-title="Khám Phá",BBC EARTH
+udp://@225.1.2.24:30120
+#EXTINF:-1 tvg-id="BBC LIFESTYLE" tvg-name="BBC LIFESTYLE" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BBC_LIFESTYLE.png" group-title="Giải Trí & Phim",BBC LIFESTYLE
+udp://@225.1.2.52:30120
+#EXTINF:-1 tvg-id="BBC WORLD NEWS" tvg-name="BBC WORLD NEWS" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BBC_WORLD NEWS.png" group-title="Tin Tức",BBC WORLD NEWS
+udp://@225.1.2.74:30120
+#EXTINF:-1 tvg-id="BOOMERANG" tvg-name="BOOMERANG" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BOOMERANG.png" group-title="Thiếu Nhi",BOOMERANG
+udp://@225.1.1.138:30120
+#EXTINF:-1 tvg-id="BLOOMBERG" tvg-name="BLOOMBERG" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BLOOMBERG.png" group-title="Tin Tức",BLOOMBERG
+udp://@225.1.2.91:30120
+#EXTINF:-1 tvg-id="CARTOON NETWORK" tvg-name="CARTOON NETWORK" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CARTOON_NETWORK.png" group-title="Thiếu Nhi",CARTOON NETWORK
+udp://@225.1.2.231:30120
+#EXTINF:-1 tvg-id="CINEMA WORLD" tvg-name="CINEMA WORLD" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CINEMA_WORLD.png" group-title="Giải Trí & Phim",CINEMA WORLD
+udp://@225.1.1.142:30120
+#EXTINF:-1 tvg-id="CINEMAX" tvg-name="CINEMAX" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CINEMAX.png" group-title="Giải Trí & Phim",CINEMAX
+udp://@225.1.2.86:30120
+#EXTINF:-1 tvg-id="CNBC" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CNBC.png" group-title="Tin Tức",CNBC
+udp://@225.1.1.227:30120
+#EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CNN.png" group-title="Tin Tức",CNN
+udp://@225.1.1.242:30120
+#EXTINF:-1 tvg-id="CHANNEL NEWS ASIA" tvg-name="CHANNEL NEWS ASIA" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CHANNEL_NEWS_ASIA.png" group-title="Tin Tức",CHANNEL NEWS ASIA
+udp://@225.1.1.202:30120
+#EXTINF:-1 tvg-id="DA VINCI" tvg-name="DA VINCI" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DA_VINCI.png" group-title="Khám Phá",DA VINCI
+udp://@225.1.1.197:30120
+#EXTINF:-1 tvg-id="DISCOVERY ASIA" tvg-name="DISCOVERY ASIA" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DISCOVERY_ASIA.png" group-title="Khám Phá",DISCOVERY ASIA
+udp://@225.1.2.223:30120
+#EXTINF:-1 tvg-id="DISCOVERY CHANNEL" tvg-name="DISCOVERY CHANNEL" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DISCOVERY_CHANNEL.png" group-title="Khám Phá",DISCOVERY CHANNEL
+udp://@225.1.1.238:30120
+#EXTINF:-1 tvg-id="DREAM WORKS" tvg-name="DREAM WORKS" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DREAM_WORKS.png" group-title="Giải Trí & Phim",DREAM WORKS
+udp://@225.1.1.136:30120
+#EXTINF:-1 tvg-id="DW" tvg-name="DW" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DW.png" group-title="Tin Tức",DW
+udp://@225.1.1.46:30120
+#EXTINF:-1 tvg-id="FASHIONTV" tvg-name="FASHIONTV" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FASHIONTV.png" group-title="Giải Trí & Phim",FASHIONTV
+udp://@225.1.2.227:30120
+#EXTINF:-1 tvg-id="FRANCE" tvg-name="FRANCE" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FRANCE.png" group-title="Tin Tức",FRANCE
+udp://@225.1.2.211:30120
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HBO.png" group-title="Giải Trí & Phim",HBO
+udp://@225.1.2.233:30120
+#EXTINF:-1 tvg-id="KBS WORLD" tvg-name="KBS WORLD" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/KBS_WORLD.png" group-title="Quốc Tế",KBS WORLD
+udp://@225.1.1.196:30120
+#EXTINF:-1 tvg-id="KIX" tvg-name="KIX" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/KIX.png" group-title="Giải Trí & Phim",KIX
+udp://@225.1.2.144:30120
+#EXTINF:-1 tvg-id="NHK" tvg-name="NHK" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/NHK.png" group-title="Quốc Tế",NHK
+udp://@225.1.1.47:30120
+#EXTINF:-1 tvg-id="OUTDOOR" tvg-name="OUTDOOR" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/OUTDOOR.png" group-title="Khám Phá",OUTDOOR
+udp://@225.1.2.215:30120
+#EXTINF:-1 tvg-id="TLC" tvg-name="TLC" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/TLC.png" group-title="Giải Trí & Phim",TLC
+udp://@225.1.1.236:30120
+#EXTINF:-1 tvg-id="TV5 MONDE" tvg-name="TV5 MONDE" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/TV5_MONDE.png" group-title="Quốc Tế",TV5 MONDE
+udp://@225.1.1.200:30120
+#EXTINF:-1 tvg-id="WB TV" tvg-name="WB TV" tvg-logo="https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/WB_TV.png" group-title="Giải Trí & Phim",WB TV
+udp://@225.1.1.139:30120
+
