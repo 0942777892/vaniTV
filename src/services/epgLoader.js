@@ -9,6 +9,7 @@ const { downloadText } = require("./downloader");
 
 async function loadEpg() {
 
+    const channels = [];
     const programmes = [];
 
     for (const epg of epgs) {
@@ -57,13 +58,14 @@ async function loadEpg() {
 
             }
 
-            const list = parseXmltv(text);
+            const parsed = parseXmltv(text);
 
             console.log(
-                `Loaded ${list.length} programmes from ${epg.name}`
+                `Loaded ${parsed.programmes.length} programmes from ${epg.name}`
             );
 
-            programmes.push(...list);
+            channels.push(...parsed.channels);
+            programmes.push(...parsed.programmes);
 
         }
         catch (err) {
@@ -76,7 +78,7 @@ async function loadEpg() {
 
     }
 
-    return programmes;
+    return { channels, programmes };
 
 }
 

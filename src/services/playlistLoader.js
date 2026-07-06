@@ -11,56 +11,77 @@ async function loadPlaylists() {
 
     const channels = [];
 
+    const folder = path.join(
+        process.cwd(),
+        config.playlist.folder
+    );
+
     for (const playlist of playlists) {
 
         if (!playlist.enabled) {
+
+            console.log(
+                `[Playlist] Skipped (disabled): ${playlist.name}`
+            );
+
             continue;
+
         }
 
         try {
 
             let text;
 
-            if (playlist.type === "file") {
+            switch (playlist.type) {
 
-                const file = path.join(
-                    process.cwd(),
-                    config.playlist.folder,
-                    playlist.path
-                );
+                case "file":
 
-                if (!fs.existsSync(file)) {
+                    text = fs.readFileSync(
+                        path.join(folder, playlist.path),
+                        "utf8"
+                    );
 
-                    console.warn(`[Playlist] Missing: ${playlist.path}`);
+                    break;
+
+                case "url":
+
+                    text = await downloadText(playlist.path);
+
+                    break;
+
+                default:
+
+                    console.warn(
+                        `[Playlist] Unknown type: ${playlist.type}`
+                    );
+
                     continue;
 
-                }
-
-                text = fs.readFileSync(file, "utf8");
-
-            }
-            else if (playlist.type === "url") {
-
-                text = await downloadText(playlist.path);
-
-            }
-            else {
-
-                console.warn(`[Playlist] Unknown playlist type: ${playlist.type}`);
-                continue;
-
             }
 
-            const list = parsePlaylist(text, playlist);
+            const list = parsePlaylist(text, {
 
-            console.log(`Loaded ${list.length} channels from ${playlist.name}`);
+                name: playlist.name,
+
+                source: playlist.name,
+
+                priority: playlist.priority || 0
+
+            });
+
+            console.log(
+                `Loaded ${list.length} channels from ${playlist.name}`
+            );
 
             channels.push(...list);
 
         }
         catch (err) {
 
-            console.error(`Cannot load ${playlist.name}:`, err);
+            console.error(
+                `[Playlist] Cannot load ${playlist.name}:`,
+                err.message
+            );
 
         }
 

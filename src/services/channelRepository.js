@@ -14,9 +14,30 @@ async function loadChannels() {
 
         if (!existing) {
 
+            // epgIds: gom mọi tvg-id + tên hiển thị từng thấy cho kênh này.
+            // Cần cả tên hiển thị vì có nguồn EPG (vd epg.pw) không dùng
+            // tvg-id dạng chữ, mà định danh kênh bằng số nội bộ + tên.
+            channel.epgIds = [];
+
+            if (channel.epg) {
+                channel.epgIds.push(channel.epg);
+            }
+
+            if (channel.name) {
+                channel.epgIds.push(channel.name);
+            }
+
             map.set(channel.id, channel);
             continue;
 
+        }
+
+        if (channel.epg && !existing.epgIds.includes(channel.epg)) {
+            existing.epgIds.push(channel.epg);
+        }
+
+        if (channel.name && !existing.epgIds.includes(channel.name)) {
+            existing.epgIds.push(channel.name);
         }
 
         for (const source of channel.sources) {
@@ -37,10 +58,6 @@ async function loadChannels() {
 
     console.log(`Total unique channels: ${channels.length}`);
 
-    const test = channels.find(c => c.id === "vanitv:vtv1");
-
-    console.log("Repository test:", test ? test.id : "NOT FOUND");
-
 }
 
 function getChannels() {
@@ -48,11 +65,7 @@ function getChannels() {
 }
 
 function getChannelById(id) {
-
-    console.log("getChannelById:", id);
-
     return channels.find(channel => channel.id === id);
-
 }
 
 module.exports = {

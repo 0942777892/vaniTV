@@ -3,7 +3,6 @@ const {
     qualityScore
 } = require("../utils/sourceScore");
 
-const path = require("path");
 const { parse } = require("iptv-playlist-parser");
 
 const Channel = require("../models/channel");
@@ -12,7 +11,7 @@ const Source = require("../models/Source");
 const { createChannelId } = require("../utils/channelId");
 const { detectProtocol } = require("../utils/protocol");
 
-function parsePlaylist(text, playlistInfo) {
+function parsePlaylist(text, playlistInfo = {}) {
 
     const playlist = parse(text);
 
@@ -33,7 +32,7 @@ function parsePlaylist(text, playlistInfo) {
 
             protocol,
 
-            source: playlistInfo.path || path.basename(file),
+            source: playlistInfo.source || "playlist",
 
             priority,
 
@@ -53,7 +52,7 @@ function parsePlaylist(text, playlistInfo) {
                 "",
 
             logo:
-                item.logo ||
+                item.tvg?.logo ||
                 "",
 
             epg:

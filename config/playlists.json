@@ -1,23 +1,23 @@
 [
     {
+        "name": "HTTP",
+        "type": "file",
+        "path": "http01.m3u",
+        "enabled": true,
+        "priority": 100,
+        "tags": [
+            "http"
+        ]
+    },
+    {
         "name": "UDP FPT",
         "type": "file",
-        "path": "kenh.m3u",
+        "path": "udpFPT.m3u",
         "enabled": true,
         "priority": 10,
         "tags": [
             "udp"
-        ]
-    },
-    {
-        "name": "HTTP Backup",
-        "type": "file",
-        "path": "kenhcoban.m3u",
-        "enabled": true,
-        "priority": 100,
-        "tags": [
-            "backup",
-            "http"
-        ]
+        ],
+        "note": "Passthrough trực tiếp cho v1 (không qua relay). Chỉ phát được khi người xem đang ở đúng mạng ISP tương ứng (FPT). Sau này thêm Viettel/VNPT thì thêm entry mới tương tự."
     }
 ]

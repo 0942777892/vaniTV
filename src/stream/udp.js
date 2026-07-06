@@ -1,20 +1,20 @@
-const { startRelay } = require("../relay/ffmpeg");
-const { relayUrl } = require("../utils/url");
+// v1: trả thẳng link UDP multicast cho Stremio client tự kết nối.
+// Chỉ chạy được trên đúng mạng ISP phát multicast đó (vd FPT/Viettel/VNPT).
+// Relay (ffmpeg -> HLS) sẽ làm sau, để người NGOÀI mạng đó cũng xem được
+// qua link HTTP thay vì UDP trực tiếp. Xem src/relay/ffmpeg.js.
 
 module.exports = async (channel, source) => {
-
-    startRelay(channel.id, source.url);
 
     return {
 
         streams: [
             {
 
-                name: "vaniTV Relay",
+                name: "vaniTV",
 
                 title: channel.name,
 
-                url: relayUrl(channel.id)
+                url: source.url
 
             }
         ]

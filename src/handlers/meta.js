@@ -29,9 +29,9 @@ async function createMeta({ id }) {
 
     }
 
-    const current = getCurrentProgramme(channel.epg);
+    const current = getCurrentProgramme(channel.epgIds);
 
-    const next = getNextProgramme(channel.epg);
+    const next = getNextProgramme(channel.epgIds);
 
     let description = "";
 
@@ -77,7 +77,7 @@ async function createMeta({ id }) {
 
             id: channel.id,
 
-            type: "movie",
+            type: "tv",
 
             name: channel.name,
 
@@ -86,6 +86,10 @@ async function createMeta({ id }) {
                 "https://placehold.co/300x450/png?text=TV",
 
             posterShape: "square",
+
+            logo: channel.logo,
+
+            background: channel.logo,
 
             genres: [
                 channel.group

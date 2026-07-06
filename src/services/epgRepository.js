@@ -1,18 +1,59 @@
+const { normalizeEpgId } = require("../utils/normalizeEpgId");
+
 const programmes = new Map();
 
-function loadProgrammes(list) {
+function addToIndex(key, list) {
+
+    const normalized = normalizeEpgId(key);
+
+    if (!normalized) {
+        return;
+    }
+
+    if (!programmes.has(normalized)) {
+        programmes.set(normalized, []);
+    }
+
+    programmes.get(normalized).push(...list);
+
+}
+
+// channels: [{id, name}] — vd nguồn epg.pw dùng số làm id,
+// tên kênh thật (vd "VTV1 HD") chỉ nằm trong display-name.
+function loadProgrammes(channels, programmeList) {
 
     programmes.clear();
 
-    for (const programme of list) {
+    // Gom chương trình theo channel id gốc trong file XML trước
+    const byChannelId = new Map();
 
-        if (!programmes.has(programme.channel)) {
-            programmes.set(programme.channel, []);
+    for (const programme of programmeList) {
+
+        if (!byChannelId.has(programme.channel)) {
+            byChannelId.set(programme.channel, []);
         }
 
-        programmes
-            .get(programme.channel)
-            .push(programme);
+        byChannelId.get(programme.channel).push(programme);
+
+    }
+
+    const nameById = new Map(
+        channels.map(c => [c.id, c.name])
+    );
+
+    for (const [channelId, list] of byChannelId) {
+
+        // Index theo chính channel id (khớp trường hợp id
+        // đã là tvg-id dạng chữ, vd "VTV1.vn")
+        addToIndex(channelId, list);
+
+        // Index thêm theo display-name (khớp trường hợp id
+        // chỉ là số nội bộ, vd epg.pw dùng "411383")
+        const name = nameById.get(channelId);
+
+        if (name) {
+            addToIndex(name, list);
+        }
 
     }
 
@@ -29,15 +70,28 @@ function loadProgrammes(list) {
 
 }
 
-function getProgrammes(channel) {
+// ids: 1 tvg-id (string) hoặc nhiều tvg-id ứng viên (array)
+function getProgrammes(ids) {
 
-    return programmes.get(channel) || [];
+    const candidates = Array.isArray(ids) ? ids : [ids];
+
+    for (const id of candidates) {
+
+        const list = programmes.get(normalizeEpgId(id));
+
+        if (list && list.length) {
+            return list;
+        }
+
+    }
+
+    return [];
 
 }
 
-function getCurrentProgramme(channel) {
+function getCurrentProgramme(ids) {
 
-    const list = getProgrammes(channel);
+    const list = getProgrammes(ids);
 
     const now = new Date();
 
@@ -56,9 +110,9 @@ function getCurrentProgramme(channel) {
 
 }
 
-function getNextProgramme(channel) {
+function getNextProgramme(ids) {
 
-    const list = getProgrammes(channel);
+    const list = getProgrammes(ids);
 
     const now = new Date();
 
@@ -82,23 +136,38 @@ function parseXmltvDate(value) {
         return new Date(0);
     }
 
-    const text = value.substring(0, 14);
-
-    const year = Number(text.substring(0, 4));
-    const month = Number(text.substring(4, 6)) - 1;
-    const day = Number(text.substring(6, 8));
-    const hour = Number(text.substring(8, 10));
-    const minute = Number(text.substring(10, 12));
-    const second = Number(text.substring(12, 14));
-
-    return new Date(
-        year,
-        month,
-        day,
-        hour,
-        minute,
-        second
+    const match = value.match(
+        /^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})\s*([+-]\d{4})?$/
     );
+
+    if (!match) {
+        return new Date(0);
+    }
+
+    const [, y, mo, d, h, mi, s, offset] = match;
+
+    let ms = Date.UTC(
+        Number(y),
+        Number(mo) - 1,
+        Number(d),
+        Number(h),
+        Number(mi),
+        Number(s)
+    );
+
+    if (offset) {
+
+        const sign = offset[0] === "-" ? -1 : 1;
+        const oh = Number(offset.substring(1, 3));
+        const om = Number(offset.substring(3, 5));
+
+        // giờ trong file là giờ địa phương tại offset đó,
+        // nên UTC thật = giờ đọc được - offset
+        ms -= sign * (oh * 60 + om) * 60000;
+
+    }
+
+    return new Date(ms);
 
 }
 

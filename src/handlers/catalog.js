@@ -2,20 +2,13 @@ const { getChannels } = require("../services/channelRepository");
 
 module.exports = async ({ type, id, extra, config }) => {
 
-    console.log("Catalog request:", {
-        type,
-        id,
-        extra,
-        config
-    });
-
     const channels = getChannels();
 
     const metas = channels.map(channel => ({
 
         id: channel.id,
 
-        type: "movie",
+        type: "tv",
 
         name: channel.name,
 
@@ -25,13 +18,13 @@ module.exports = async ({ type, id, extra, config }) => {
 
         posterShape: "square",
 
+        logo: channel.logo,
+
         genres: [
             channel.group || "Live TV"
         ]
 
     }));
-
-    console.log(`Returning ${metas.length} channels`);
 
     return {
         metas

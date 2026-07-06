@@ -1,8 +1,8 @@
 module.exports = {
 
     addon: {
-        host: "127.0.0.1",
-        port: 7000
+        host: process.env.HOST || "0.0.0.0",
+        port: process.env.PORT ? Number(process.env.PORT) : 7000
     },
 
     relay: {

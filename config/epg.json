@@ -1,9 +1,16 @@
 [
     {
-        "name": "Vietnam EPG",
-        "type": "file",
-        "path": "guide.xml",
-        "enabled": false,
+        "name": "epgshare01 VN",
+        "type": "url",
+        "path": "https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz",
+        "enabled": true,
         "priority": 100
+    },
+    {
+        "name": "epg.pw VN",
+        "type": "url",
+        "path": "https://epg.pw/xmltv/epg_VN.xml",
+        "enabled": true,
+        "priority": 50
     }
 ]

@@ -1,10 +1,12 @@
+const zlib = require("zlib");
+
 async function downloadText(url) {
 
     const controller = new AbortController();
 
     const timeout = setTimeout(() => {
         controller.abort();
-    }, 10000);
+    }, 15000);
 
     try {
 
@@ -26,7 +28,17 @@ async function downloadText(url) {
 
         }
 
-        return await response.text();
+        const buffer = Buffer.from(
+            await response.arrayBuffer()
+        );
+
+        // File .gz là file nén sẵn (khác với Content-Encoding gzip
+        // ở tầng transport mà fetch tự giải nén) nên cần tự gunzip.
+        if (url.endsWith(".gz")) {
+            return zlib.gunzipSync(buffer).toString("utf8");
+        }
+
+        return buffer.toString("utf8");
 
     }
     finally {
