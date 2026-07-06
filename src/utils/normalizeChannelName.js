@@ -8,8 +8,18 @@ function normalizeChannelName(text) {
 
         .toLowerCase()
 
-        // bỏ nội dung trong ngoặc
+        // bỏ hậu tố chất lượng kiểu "@sd"/"@hd" (iptv-org dùng
+        // tvg-id dạng "tenkenh.vn@sd")
+        .replace(/@[a-z0-9]+$/, "")
+
+        // bỏ hậu tố mã quốc gia kiểu ".vn"
+        .replace(/\.[a-z]{2}$/, "")
+
+        // bỏ nội dung trong ngoặc (vd "(1080p)")
         .replace(/\(.*?\)/g, "")
+
+        // bỏ nội dung trong ngoặc vuông (vd "[Geo-blocked]")
+        .replace(/\[.*?\]/g, "")
 
         // chuẩn hóa dấu phân cách
         .replace(/[_-]/g, " ")

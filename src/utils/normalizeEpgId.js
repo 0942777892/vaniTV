@@ -16,13 +16,16 @@ function normalizeEpgId(id) {
 
         .toLowerCase()
 
+        // bỏ hậu tố chất lượng kiểu "@sd" (đứng sau mã quốc gia)
+        .replace(/@[a-z0-9]+$/, "")
+
         // bỏ hậu tố quốc gia kiểu ".vn"
         .replace(/\.[a-z]{2}$/, "")
 
         // chuẩn hóa dấu phân cách
         .replace(/[\s_]+/g, "-")
 
-        // bỏ hậu tố chất lượng
+        // bỏ hậu tố chất lượng (trường hợp đứng ngay sau tên, có dấu -)
         .replace(/-(uhd|fhd|hd|sd|4k|8k|hevc|hdr)$/, "")
 
         // bỏ mọi ký tự không phải chữ/số

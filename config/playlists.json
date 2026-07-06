@@ -10,6 +10,18 @@
         ]
     },
     {
+        "name": "iptv-org VN",
+        "type": "url",
+        "path": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+        "enabled": true,
+        "priority": 80,
+        "tags": [
+            "http",
+            "backup"
+        ],
+        "note": "Nguồn dự phòng công cộng, cộng đồng bảo trì, có kiểm tra link chết tự động. Bổ sung thêm lựa chọn stream cho các kênh đã có, không thay thế nguồn chính."
+    },
+    {
         "name": "UDP FPT",
         "type": "file",
         "path": "udpFPT.m3u",
