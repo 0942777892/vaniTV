@@ -7,16 +7,10 @@ const catalogHandler = require("./handlers/catalog");
 const metaHandler = require("./handlers/meta");
 const streamHandler = require("./handlers/stream");
 
-const { loadChannels } = require("./services/channelRepository");
+const { loadChannels, getChannels } = require("./services/channelRepository");
 
 const { loadEpg } = require("./services/epgLoader");
-const { loadProgrammes } = require("./services/epgRepository");
-
-const builder = new addonBuilder(manifest);
-
-builder.defineCatalogHandler(catalogHandler);
-builder.defineMetaHandler(metaHandler);
-builder.defineStreamHandler(streamHandler);
+const { loadProgrammes, getProgrammes } = require("./services/epgRepository");
 
 (async () => {
 
@@ -24,14 +18,27 @@ builder.defineStreamHandler(streamHandler);
 
     await loadChannels();
 
+    // Điền danh sách genre thật (theo group của kênh) vào manifest,
+    // để Stremio hiện dropdown lọc đúng dữ liệu đang có.
+    const groups = new Set();
+
+    for (const channel of getChannels()) {
+        groups.add(channel.group || "Live TV");
+    }
+
+    manifest.catalogs[0].extra[0].options = Array.from(groups).sort();
+
+    const builder = new addonBuilder(manifest);
+
+    builder.defineCatalogHandler(catalogHandler);
+    builder.defineMetaHandler(metaHandler);
+    builder.defineStreamHandler(streamHandler);
+
     console.log("Loading EPG...");
 
     const epg = await loadEpg();
 
     loadProgrammes(epg.channels, epg.programmes);
-
-    const { getChannels } = require("./services/channelRepository");
-    const { getProgrammes } = require("./services/epgRepository");
 
     const total = getChannels().length;
     let matched = 0;
@@ -47,22 +54,6 @@ builder.defineStreamHandler(streamHandler);
     }
 
     console.log(`[EPG] Khớp được ${matched}/${total} kênh có ít nhất 1 chương trình.`);
-
-    const vtv1 = getChannels().find(c => c.id === "vanitv:vtv1");
-
-    if (vtv1) {
-
-        const list = getProgrammes(vtv1.epgIds);
-
-        console.log(`[EPG] vtv1.epgIds = ${JSON.stringify(vtv1.epgIds)}`);
-        console.log(`[EPG] vtv1 tìm thấy ${list.length} chương trình.`);
-
-        if (list.length) {
-            console.log(`[EPG] vtv1 khung giờ có dữ liệu: ${list[0].start} -> ${list[list.length - 1].stop}`);
-            console.log(`[EPG] Giờ hệ thống hiện tại: ${new Date().toISOString()}`);
-        }
-
-    }
 
     console.log("Starting addon...");
 

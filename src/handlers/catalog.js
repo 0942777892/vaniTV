@@ -2,7 +2,33 @@ const { getChannels } = require("../services/channelRepository");
 
 module.exports = async ({ type, id, extra, config }) => {
 
-    const channels = getChannels();
+    let channels = getChannels();
+
+    if (extra?.genre) {
+
+        channels = channels.filter(channel => {
+
+            return (channel.group || "Live TV") === extra.genre;
+
+        });
+
+    }
+
+    if (extra?.search) {
+
+        const query = extra.search
+            .toLowerCase()
+            .trim();
+
+        channels = channels.filter(channel => {
+
+            return channel.name
+                .toLowerCase()
+                .includes(query);
+
+        });
+
+    }
 
     const metas = channels.map(channel => ({
 

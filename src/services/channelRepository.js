@@ -1,5 +1,9 @@
 const { loadPlaylists } = require("./playlistLoader");
 
+const logoOverrides = new Map(
+    require("../../config/logos.json").map(item => [item.id, item.logo])
+);
+
 let channels = [];
 
 async function loadChannels() {
@@ -56,7 +60,27 @@ async function loadChannels() {
 
     channels = Array.from(map.values());
 
+    let overridden = 0;
+
+    for (const channel of channels) {
+
+        const override = logoOverrides.get(channel.id);
+
+        if (override && override !== channel.logo) {
+            channel.logo = override;
+            overridden++;
+        }
+        else if (override) {
+            channel.logo = override;
+        }
+
+    }
+
     console.log(`Total unique channels: ${channels.length}`);
+
+    if (overridden) {
+        console.log(`Logo override: ${overridden} kênh dùng logo tùy chỉnh.`);
+    }
 
 }
 

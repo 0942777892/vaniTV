@@ -24,7 +24,7 @@ function normalizeChannelName(text) {
         // chuẩn hóa dấu phân cách
         .replace(/[_-]/g, " ")
 
-        // bỏ các hậu tố chất lượng
+        // bỏ các hậu tố chất lượng (có dấu ngăn cách, vd "hbo-hd")
         .replace(/\b(uhd|fhd|hd|sd|4k|8k|hevc|hdr|h265|h264|av1)\b/g, "")
 
         // bỏ từ "backup"
@@ -33,7 +33,11 @@ function normalizeChannelName(text) {
         // gom khoảng trắng
         .replace(/\s+/g, " ")
 
-        .trim();
+        .trim()
+
+        // bỏ hậu tố chất lượng dính liền không có dấu ngăn cách
+        // (vd "hbohd", "vtv1hd" -> "hbo", "vtv1")
+        .replace(/(uhd|fhd|hevc|hdr|hd|sd|4k|8k)$/, "");
 
 }
 

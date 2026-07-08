@@ -1,7 +1,7 @@
 module.exports = {
     id: "com.vanitv.addon",
 
-    version: "0.1.0",
+    version: "0.2.0",
 
     name: "vaniTV",
 
@@ -21,7 +21,18 @@ module.exports = {
         {
             type: "tv",
             id: "live-tv",
-            name: "Live TV"
+            name: "Live TV",
+            extra: [
+                {
+                    name: "genre",
+                    isRequired: false,
+                    options: []
+                },
+                {
+                    name: "search",
+                    isRequired: false
+                }
+            ]
         }
     ],
 

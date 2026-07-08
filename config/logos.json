@@ -1,0 +1,1222 @@
+[
+    {
+        "id": "vanitv:vietnam-today",
+        "name": "VIETNAM TODAY HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vietnam-today-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv1",
+        "name": "VTV1 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv1-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv10",
+        "name": "VTV10 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv10-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv2",
+        "name": "VTV2 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv2-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv3",
+        "name": "VTV3 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv3-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv4",
+        "name": "VTV4 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv4-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv5",
+        "name": "VTV5 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv5-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv5-tay-nam-bo",
+        "name": "VTV5 Tây Nam Bộ",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv5-tay-nam-bo/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv5-tay-nguyen",
+        "name": "VTV5 Tây Nguyên",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv5-tay-nguyen/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv6",
+        "name": "VTV6 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv6-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv7",
+        "name": "VTV7 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv7-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv8",
+        "name": "VTV8 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv8-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtv9",
+        "name": "VTV9 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtv9-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:antv",
+        "name": "ANTV",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/antv/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:qpvn",
+        "name": "QPVN HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/qpvn-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vinh-long-1",
+        "name": "Vĩnh Long 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vinh-long-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vinh-long-2",
+        "name": "Vĩnh Long 2",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vinh-long-2/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vinh-long-3",
+        "name": "Vĩnh Long 3",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vinh-long-3/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vinh-long-4",
+        "name": "Vĩnh Long 4",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vinh-long-4/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vinh-long-5",
+        "name": "Vĩnh Long 5",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vinh-long-5/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:afn",
+        "name": "AFN HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/afn-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:arirang",
+        "name": "Arirang",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/arirang/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:channel-news-asia",
+        "name": "Channel News Asia",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/channel-news-asia/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:cnbc",
+        "name": "CNBC",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/cnbc/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:davinci",
+        "name": "DaVinci HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/davinci-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:dw",
+        "name": "DW",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/dw/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:france-24",
+        "name": "France 24",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/france-24/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:history",
+        "name": "History HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/history-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:hitv",
+        "name": "HITV",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/hitv/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:kbs-world",
+        "name": "KBS World",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/kbs-world/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:kix",
+        "name": "Kix",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/kix/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:nhk",
+        "name": "NHK",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/nhk/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:outdoor",
+        "name": "Outdoor HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/outdoor-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:sctv2-today-tv",
+        "name": "SCTV2 - Today TV",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv2-today-tv/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:sctv6",
+        "name": "SCTV6",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv6/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:o2tv",
+        "name": "O2TV",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/o2tv/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-1-vie-giai-tri",
+        "name": "VTVcab 1 - Vie Giải Trí HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-1-vie-giai-tri-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-12-styletv",
+        "name": "VTVcab 12 - StyleTV HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-12-styletv-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-2-phim-viet",
+        "name": "VTVcab 2 - Phim Việt HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-2-phim-viet-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-20-v-family",
+        "name": "VTVcab 20 - V Family HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-20-v-family-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-21-cartoon-kids",
+        "name": "VTVcab 21- Cartoon Kids HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-21-cartoon-kids-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-22-life-tv",
+        "name": "VTVcab 22 - Life TV HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-22-life-tv-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-23-golf-channel",
+        "name": "VTVcab 23 - Golf Channel",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-23-golf-channel/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-4-on-movies",
+        "name": "Vtvcab 4 – On Movies",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-4-on-movies/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-5-e-channel",
+        "name": "VTVcab 5 - E Channel HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-5-e-channel-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-8-bi-bi",
+        "name": "VTVcab 8 Bibi SD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-8-bi-bi-sd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab-9-infotv",
+        "name": "VTVcab 9 - InfoTV HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab-9-infotv-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab10-on-cine",
+        "name": "VTVcab10 - On Cine HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab10-on-cine-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab15-on-music",
+        "name": "VTVcab15 – On Music",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab15-on-music/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab17-trending-tv",
+        "name": "Vtvcab17 – Trending TV",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab17-trending-tv/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:vtvcab19-vie-dramas",
+        "name": "VTVcab19 – Vie Dramas",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/vtvcab19-vie-dramas/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htv-the-thao",
+        "name": "HTV Thể Thao",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htv-the-thao/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htv1",
+        "name": "HTV1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htv1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htv2",
+        "name": "HTV2",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htv2/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htv3",
+        "name": "HTV3",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htv3/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htv4",
+        "name": "HTV4",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htv4/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htv7",
+        "name": "HTV7 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htv7-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htv9",
+        "name": "HTV9 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htv9-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htvc",
+        "name": "HTVC+ Channel B",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htvc/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htvc-ca-nhac",
+        "name": "HTVC ca nhạc",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htvc-ca-nhac/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htvc-du-lich-cuoc-song",
+        "name": "HTVC du lịch & cuộc sống",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htvc-du-lich-cuoc-song/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htvc-gia-dinh",
+        "name": "HTVC gia đình",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htvc-gia-dinh/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htvc-phim-truyen",
+        "name": "HTVC phim truyện HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htvc-phim-truyen-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htvc-phu-nu",
+        "name": "HTVC phụ Nữ",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htvc-phu-nu/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:htvc-thuan-viet",
+        "name": "HTVC thuần việt",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/htvc-thuan-viet/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:an-giang-1",
+        "name": "An Giang 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/an-giang-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:an-giang-2",
+        "name": "An Giang 2",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/an-giang-2/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:an-vien",
+        "name": "An Viên HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/an-vien-hd/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:bac-ninh",
+        "name": "Bắc Ninh",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/bac-ninh/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:ca-mau",
+        "name": "Cà Mau",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/ca-mau/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:can-tho-1",
+        "name": "Cần Thơ 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/can-tho-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:can-tho-2",
+        "name": "Cần Thơ 2",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/can-tho-2/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:can-tho-3",
+        "name": "Cần Thơ 3",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/can-tho-3/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:cao-bang",
+        "name": "Cao Bằng",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/cao-bang/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:da-nang-1",
+        "name": "Đà Nẵng 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/da-nang-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:da-nang-2",
+        "name": "Đà Nẵng 2",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/da-nang-2/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:dak-lak",
+        "name": "Đắk Lắk",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/dak-lak/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:dien-bien",
+        "name": "Điện Biên",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/dien-bien/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:dong-nai",
+        "name": "Đồng Nai",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/dong-nai/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:dong-nai-1",
+        "name": "Đồng Nai 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/dong-nai-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:dong-thap-1",
+        "name": "Đồng Tháp 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/dong-thap-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:dong-thap-2",
+        "name": "Đồng Tháp 2",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/dong-thap-2/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:gia-lai",
+        "name": "Gia Lai",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/gia-lai/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:ha-noi-1",
+        "name": "Hà Nội 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/ha-noi-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:ha-noi-2",
+        "name": "Hà Nội 2",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/ha-noi-2/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:ha-tinh",
+        "name": "Hà Tĩnh",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/ha-tinh/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:hai-phong",
+        "name": "Hải Phòng",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/hai-phong/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:hai-phong-3",
+        "name": "Hải Phòng 3",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/hai-phong-3/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:hue",
+        "name": "Huế",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/hue/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:hung-yen",
+        "name": "Hưng Yên",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/hung-yen/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:khanh-hoa",
+        "name": "Khánh Hòa",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/khanh-hoa/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:khanh-hoa-1",
+        "name": "Khánh Hòa 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/khanh-hoa-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:lai-chau",
+        "name": "Lai Châu",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/lai-chau/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:lam-dong-1",
+        "name": "Lâm Đồng 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/lam-dong-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:lam-dong-2",
+        "name": "Lâm Đồng 2",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/lam-dong-2/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:lang-son",
+        "name": "Lạng Sơn",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/lang-son/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:lao-cai",
+        "name": "Lào Cai",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/lao-cai/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:nghe-an",
+        "name": "Nghệ An",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/nghe-an/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:ninh-binh",
+        "name": "Ninh Bình",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/ninh-binh/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:phu-tho",
+        "name": "Phú Thọ",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/phu-tho/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:quang-ngai",
+        "name": "Quảng Ngãi",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/quang-ngai/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:quang-ninh-1",
+        "name": "Quảng Ninh 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/quang-ninh-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:quang-ninh-3",
+        "name": "Quảng Ninh 3",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/quang-ninh-3/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:quang-tri",
+        "name": "Quảng Trị",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/quang-tri/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:son-la",
+        "name": "Sơn La",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/son-la/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:tay-ninh-1",
+        "name": "Tây Ninh 1",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/tay-ninh-1/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:thai-nguyen",
+        "name": "Thái Nguyên",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/thai-nguyen/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:thanh-hoa",
+        "name": "Thanh Hóa",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/thanh-hoa/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:tuyen-quang",
+        "name": "Tuyên Quang",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/tuyen-quang/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:youtv",
+        "name": "YouTV",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/youtv/KenhCoBan.png"
+    },
+    {
+        "id": "vanitv:sctv1hd",
+        "name": "SCTV1 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv1hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv3hd",
+        "name": "SCTV3 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv3hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv4hd",
+        "name": "SCTV4 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv4hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv5",
+        "name": "SCTV5 SCJ TV Shopping",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv5/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv7hd",
+        "name": "SCTV7 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv7hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv8hd",
+        "name": "SCTV8 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv8hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv9hd",
+        "name": "SCTV9 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv9hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv10hd",
+        "name": "SCTV10 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv10hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv11hd",
+        "name": "SCTV11 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv11hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv12hd",
+        "name": "SCTV12 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv12hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv13hd",
+        "name": "SCTV13 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv13hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv14hd",
+        "name": "SCTV14 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv14hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv15hd",
+        "name": "SCTV15 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv15hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv16hd",
+        "name": "SCTV16 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv16hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv17hd",
+        "name": "SCTV17 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv17hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv18hd",
+        "name": "SCTV18 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv18hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv19hd",
+        "name": "SCTV19 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv19hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv20hd",
+        "name": "SCTV20 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv20hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv21hd",
+        "name": "SCTV21 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv21hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv22hd",
+        "name": "SCTV22 HD",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv22hd/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctvhdpth",
+        "name": "SCTV HD Phim Tổng Hợp",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctvhdpth/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:sctv4k",
+        "name": "SCTV4K",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/sctv4k/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:spotv",
+        "name": "SPOTV (HD)",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/spotv/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:spotv2",
+        "name": "SPOTV2 (HD)",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/spotv2/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:hai-phong-plus",
+        "name": "Hải Phòng +",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/hai-phong-plus/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:tvbvietnam",
+        "name": "TVB VIỆT NAM",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/TVBVietNam/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:hbohd",
+        "name": "HBO",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/hboHD/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:cinemaxhd",
+        "name": "Cinemax",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/cinemaxHD/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:cgtn",
+        "name": "CGTN",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/CGTN/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:nhkworld",
+        "name": "NHK World",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/NHKWorld/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:trtworld",
+        "name": "TRT World",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/TRTWorld/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:womensportsnetwork",
+        "name": "Women's Sports Network",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/WomenSportsNetwork/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:telesurenglish",
+        "name": "TeleSUR English",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/TeleSUREnglish/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:oannetwork",
+        "name": "OAN Network",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/OANNetwork/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:zoomoo",
+        "name": "ZooMoo",
+        "logo": "https://toiyeuvietnam.dpdns.org/Logo/zoomoo/KenhBoSung.png"
+    },
+    {
+        "id": "vanitv:angiangtv1",
+        "name": "An Giang TV1 (1080p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/mgp6RAU.png"
+    },
+    {
+        "id": "vanitv:angiangtv2",
+        "name": "An Giang TV2 (1080p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/efrauLr.png"
+    },
+    {
+        "id": "vanitv:angiangtv3",
+        "name": "An Giang TV3 (1080p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/gZUV4z8.png"
+    },
+    {
+        "id": "vanitv:anninhtv",
+        "name": "ANTV (1080p)",
+        "logo": "https://static.wikia.nocookie.net/logos/images/1/1a/ANTV_2023.png/revision/latest/scale-to-width-down/512?path-prefix=vi"
+    },
+    {
+        "id": "vanitv:camautv",
+        "name": "Cà Mau TV (720p) [Geo-blocked]",
+        "logo": ""
+    },
+    {
+        "id": "vanitv:canthotv",
+        "name": "Cần Thơ TV1 (1080p)",
+        "logo": "https://i.ibb.co/MDhNH26J/cantho1-2025.png"
+    },
+    {
+        "id": "vanitv:canthotv2",
+        "name": "Cần Thơ TV2 (1080p)",
+        "logo": "https://i.ibb.co/JjVvkMsf/cantho2-2025.png"
+    },
+    {
+        "id": "vanitv:canthotv3",
+        "name": "Cần Thơ TV3 (1080p)",
+        "logo": "https://i.ibb.co/d4G2PD9s/cantho3-2025.png"
+    },
+    {
+        "id": "vanitv:caobangtv",
+        "name": "Cao Bằng TV (720p)",
+        "logo": "https://i.imgur.com/dGonewm.png"
+    },
+    {
+        "id": "vanitv:danangtv1",
+        "name": "Đà Nẵng TV1 (1080p) [Not 24/7]",
+        "logo": "https://i.imgur.com/EOMuO1z.png"
+    },
+    {
+        "id": "vanitv:danangtv2",
+        "name": "Đà Nẵng TV2 (1080p) [Not 24/7]",
+        "logo": ""
+    },
+    {
+        "id": "vanitv:dienbientv",
+        "name": "Điện Biên TV (406p)",
+        "logo": "https://i.imgur.com/u308o8q.png"
+    },
+    {
+        "id": "vanitv:dongnaitv1",
+        "name": "Đồng Nai 1 (480p) [Not 24/7]",
+        "logo": "https://i.imgur.com/oQyioVa.png"
+    },
+    {
+        "id": "vanitv:dongnaitv2",
+        "name": "Đồng Nai 2 (480p) [Not 24/7]",
+        "logo": "https://i.imgur.com/tNKPSkO.png"
+    },
+    {
+        "id": "vanitv:dongthaptv",
+        "name": "Đồng Tháp TV1 (720p)",
+        "logo": "https://i.ibb.co/XFX7yw0/logo2-1.png"
+    },
+    {
+        "id": "vanitv:tiengiangtv",
+        "name": "Đồng Tháp TV2 (540p)",
+        "logo": "https://i.imgur.com/yonKxgZ.png"
+    },
+    {
+        "id": "vanitv:hatinhtv",
+        "name": "Hà Tĩnh TV (720p)",
+        "logo": "https://i.imgur.com/4yIgKKx.png"
+    },
+    {
+        "id": "vanitv:hanoitv1",
+        "name": "HanoiTV1 (1080p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/Je3K25E.png"
+    },
+    {
+        "id": "vanitv:hanoitv2",
+        "name": "HanoiTV2 (1080p) [Geo-blocked]",
+        "logo": "https://i.imgur.com/szivqh2.png"
+    },
+    {
+        "id": "vanitv:hmongtvnetwork",
+        "name": "Hmong TV Network (720p)",
+        "logo": "https://yt3.googleusercontent.com/aj3kdBQTgfxP-bDnleou4m1ykjPRFexvfTZZuvWlNc75Hn9-NTqXYEdEJ_KOcTSsbKj24K1B9BM=s512-c-k-c0x00ffffff-no-rj"
+    },
+    {
+        "id": "vanitv:htvkey",
+        "name": "HTV Key (720p)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png"
+    },
+    {
+        "id": "vanitv:htvsports",
+        "name": "HTV Thể thao (1080p) [Geo-blocked]",
+        "logo": "https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png"
+    },
+    {
+        "id": "vanitv:thuathienhuetv",
+        "name": "Huế TV (720p) [Geo-blocked]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e9/LogoHueTV_2025.png"
+    },
+    {
+        "id": "vanitv:khanhhoatv",
+        "name": "Khánh Hòa TV (720p)",
+        "logo": "https://i.imgur.com/qLMcGPT.png"
+    },
+    {
+        "id": "vanitv:ninhthuantv",
+        "name": "Khánh Hòa TV1 (720p)",
+        "logo": "https://i.imgur.com/HIyUzLM.png"
+    },
+    {
+        "id": "vanitv:lamdongtv",
+        "name": "Lâm Đồng TV (480p)",
+        "logo": "https://i.imgur.com/lSMoGlv.png"
+    },
+    {
+        "id": "vanitv:laosvtv",
+        "name": "Lao SV TV (480p)",
+        "logo": "https://i.imgur.com/ZIXtazI.png"
+    },
+    {
+        "id": "vanitv:laothaitv",
+        "name": "Lao-Thai TV (720p)",
+        "logo": "https://i.imgur.com/q6cQzbv.png"
+    },
+    {
+        "id": "vanitv:mnbworld",
+        "name": "MNB World (1080p)",
+        "logo": "https://i.imgur.com/PHlj84Q.png"
+    },
+    {
+        "id": "vanitv:rtmasean",
+        "name": "RTM ASEAN",
+        "logo": "https://i.imgur.com/skAiUxg.png"
+    },
+    {
+        "id": "vanitv:sctv2",
+        "name": "SCTV2 (720p)",
+        "logo": "https://i.imgur.com/8i5DXIg.png"
+    },
+    {
+        "id": "vanitv:sctv7",
+        "name": "SCTV7 (720p)",
+        "logo": "https://i.imgur.com/xbIUZYd.png"
+    },
+    {
+        "id": "vanitv:sctv8",
+        "name": "SCTV8 (720p)",
+        "logo": "https://i.imgur.com/eVWgfRS.png"
+    },
+    {
+        "id": "vanitv:sctv10",
+        "name": "SCTV10 (720p)",
+        "logo": "https://i.imgur.com/46OxCQG.png"
+    },
+    {
+        "id": "vanitv:sctv16",
+        "name": "SCTV16 (720p)",
+        "logo": "https://i.imgur.com/ldCYtvt.png"
+    },
+    {
+        "id": "vanitv:sctvphimtonghop",
+        "name": "SCTV Phim Tong Hop (720p)",
+        "logo": "https://i.imgur.com/R8EBxJj.png"
+    },
+    {
+        "id": "vanitv:tayninhtv",
+        "name": "Tây Ninh TV (720p)",
+        "logo": "https://tayninhtv.vn/static/images/logo.png"
+    },
+    {
+        "id": "vanitv:teatv",
+        "name": "Tea TV (720p)",
+        "logo": "https://i.imgur.com/WorbnyD.jpg"
+    },
+    {
+        "id": "vanitv:thainguyentv",
+        "name": "Thái Nguyên TV (720p)",
+        "logo": "https://thainguyentv.vn/modules/frontend/themes/ptthtn/images/logo.png"
+    },
+    {
+        "id": "vanitv:uniquelythai",
+        "name": "Uniquely Thai (720p)",
+        "logo": "https://i.imgur.com/cTSDB8O.png"
+    },
+    {
+        "id": "vanitv:vbstv",
+        "name": "VBS TV (480p) [Not 24/7]",
+        "logo": "https://i.imgur.com/OkslYzP.png"
+    },
+    {
+        "id": "vanitv:vietnamtoday",
+        "name": "Vietnam Today (1080p)",
+        "logo": "https://i.imgur.com/xW9rY7s.png"
+    },
+    {
+        "id": "vanitv:vtv5taynambo",
+        "name": "VTV5 Tay Nam Bo HD (1080p)",
+        "logo": "https://i.imgur.com/xiuHjEQ.png"
+    },
+    {
+        "id": "vanitv:vtv5taynguyen",
+        "name": "VTV5 Tay Nguyen HD (1080p)",
+        "logo": "https://i.imgur.com/Hlcnqqt.png"
+    },
+    {
+        "id": "vanitv:vtv5-tnb",
+        "name": "VTV5-TNB",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV5-TNB.png"
+    },
+    {
+        "id": "vanitv:vtv5-tn",
+        "name": "VTV5-TN",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/VTV5-TN.png"
+    },
+    {
+        "id": "vanitv:hanoi1",
+        "name": "HA NOI 1",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HANOI1.png"
+    },
+    {
+        "id": "vanitv:htv4-keys",
+        "name": "HTV4",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV4.png"
+    },
+    {
+        "id": "vanitv:anvien",
+        "name": "HTV5",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV5.png"
+    },
+    {
+        "id": "vanitv:htv-thethao",
+        "name": "HTV THE THAO",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTV-Thethao.png"
+    },
+    {
+        "id": "vanitv:am-nhac",
+        "name": "HTV AM NHAC",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTVC_AMNHAC.png"
+    },
+    {
+        "id": "vanitv:du-lich--cuoc-song",
+        "name": "DU LICH & CUOC SONG",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DULICHCUOCSONG.png"
+    },
+    {
+        "id": "vanitv:htvc-phim",
+        "name": "HTVC PHIM",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTVC_PHIM.png"
+    },
+    {
+        "id": "vanitv:c",
+        "name": "C+",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HTVC-Plus.png"
+    },
+    {
+        "id": "vanitv:fpt-gtct",
+        "name": "FPT",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT.png"
+    },
+    {
+        "id": "vanitv:fpt1",
+        "name": "FPT1",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT1.png"
+    },
+    {
+        "id": "vanitv:fpt2",
+        "name": "FPT2",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT2.png"
+    },
+    {
+        "id": "vanitv:fpt3",
+        "name": "FPT3",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT3.png"
+    },
+    {
+        "id": "vanitv:fpt4",
+        "name": "FPT4",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FPT4.png"
+    },
+    {
+        "id": "vanitv:dn1-rtv",
+        "name": "DN1-RTV",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DN1_RTV.png"
+    },
+    {
+        "id": "vanitv:dn2-rtv",
+        "name": "DN2-RTV",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DN2_RTV.png"
+    },
+    {
+        "id": "vanitv:da-nang-tv1",
+        "name": "DA NANG TV1",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DA_NANG1.png"
+    },
+    {
+        "id": "vanitv:da-nang-tv2",
+        "name": "DA NANG TV2",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DA_NANG2.png"
+    },
+    {
+        "id": "vanitv:daklak",
+        "name": "DAKLAK",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DAKLAK.png"
+    },
+    {
+        "id": "vanitv:quangngai1",
+        "name": "QUANG NGAI 1",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NGAI1.png"
+    },
+    {
+        "id": "vanitv:quangngai2",
+        "name": "QUANG NGAI 2",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NGAI2.png"
+    },
+    {
+        "id": "vanitv:quangninh1",
+        "name": "QUANG NINH 1",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NINH1.png"
+    },
+    {
+        "id": "vanitv:quangninh3",
+        "name": "QUANG NINH 3",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/QUANG_NINH3.png"
+    },
+    {
+        "id": "vanitv:dong-nai-2",
+        "name": "DONG NAI 2",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DONG_NAI2.png"
+    },
+    {
+        "id": "vanitv:tay-ninh",
+        "name": "TAY NINH",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/TAY_NINH.png"
+    },
+    {
+        "id": "vanitv:dong-thap",
+        "name": "DONG THAP",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DONG_THAP.png"
+    },
+    {
+        "id": "vanitv:an-giang-3",
+        "name": "AN GIANG 3",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/AN_GIANG3.png"
+    },
+    {
+        "id": "vanitv:abc-australia",
+        "name": "ABC AUSTRALIA",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/ABC_AUSTRALIA.png"
+    },
+    {
+        "id": "vanitv:animal-planet",
+        "name": "ANIMAL PLANET",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/ANIMAL_PLANET.png"
+    },
+    {
+        "id": "vanitv:a-cna",
+        "name": "A_cna",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/A_cna.png"
+    },
+    {
+        "id": "vanitv:arriang",
+        "name": "ARRIANG",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/ARRIANG.png"
+    },
+    {
+        "id": "vanitv:axn",
+        "name": "AXN",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/AXN.png"
+    },
+    {
+        "id": "vanitv:baby-first",
+        "name": "BABY FIRST",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BABY_FIRST.png"
+    },
+    {
+        "id": "vanitv:cartoonito",
+        "name": "CARTOONITO",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CARTOONITO.png"
+    },
+    {
+        "id": "vanitv:bbc-cbeebies",
+        "name": "BBC CBEEBIES",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BBC_CBEEBIES.png"
+    },
+    {
+        "id": "vanitv:bbc-earth",
+        "name": "BBC EARTH",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BBC_EARTH.png"
+    },
+    {
+        "id": "vanitv:bbc-lifestyle",
+        "name": "BBC LIFESTYLE",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BBC_LIFESTYLE.png"
+    },
+    {
+        "id": "vanitv:bbc-world-news",
+        "name": "BBC WORLD NEWS",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BBC_WORLD NEWS.png"
+    },
+    {
+        "id": "vanitv:boomerang",
+        "name": "BOOMERANG",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BOOMERANG.png"
+    },
+    {
+        "id": "vanitv:bloomberg",
+        "name": "BLOOMBERG",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/BLOOMBERG.png"
+    },
+    {
+        "id": "vanitv:cartoon-network",
+        "name": "CARTOON NETWORK",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CARTOON_NETWORK.png"
+    },
+    {
+        "id": "vanitv:cinema-world",
+        "name": "CINEMA WORLD",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CINEMA_WORLD.png"
+    },
+    {
+        "id": "vanitv:cinemax",
+        "name": "CINEMAX",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CINEMAX.png"
+    },
+    {
+        "id": "vanitv:cnn",
+        "name": "CNN",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/CNN.png"
+    },
+    {
+        "id": "vanitv:da-vinci",
+        "name": "DA VINCI",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DA_VINCI.png"
+    },
+    {
+        "id": "vanitv:discovery-asia",
+        "name": "DISCOVERY ASIA",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DISCOVERY_ASIA.png"
+    },
+    {
+        "id": "vanitv:discovery-channel",
+        "name": "DISCOVERY CHANNEL",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DISCOVERY_CHANNEL.png"
+    },
+    {
+        "id": "vanitv:dream-works",
+        "name": "DREAM WORKS",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/DREAM_WORKS.png"
+    },
+    {
+        "id": "vanitv:fashiontv",
+        "name": "FASHIONTV",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FASHIONTV.png"
+    },
+    {
+        "id": "vanitv:france",
+        "name": "FRANCE",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/FRANCE.png"
+    },
+    {
+        "id": "vanitv:hbo",
+        "name": "HBO",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/HBO.png"
+    },
+    {
+        "id": "vanitv:tlc",
+        "name": "TLC",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/TLC.png"
+    },
+    {
+        "id": "vanitv:tv5-monde",
+        "name": "TV5 MONDE",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/TV5_MONDE.png"
+    },
+    {
+        "id": "vanitv:wb-tv",
+        "name": "WB TV",
+        "logo": "https://raw.githubusercontent.com/0942777892/tv/768b7d390c63e5af6b74fec29e9f921e08a7c67c/WB_TV.png"
+    }
+]
